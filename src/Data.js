@@ -6,6 +6,7 @@ export const moviesData = [
       name: "Star Wars: The Rise Of Skywalker",
       date: "December 2019",
       desc: "description 1",
+      trailer:"https://www.youtube.com/embed/8Qn_spdM5Zg",
     },
     {
       id: Math.random(),
@@ -14,6 +15,7 @@ export const moviesData = [
       name: "Avengers: Infinity War",
       date: "April 2018",
       desc: "description 2",
+      trailer:"https://www.youtube.com/embed/8Qn_spdM5Zg",
     },
     {
       id: Math.random(),
@@ -22,6 +24,7 @@ export const moviesData = [
       name: "Frozen II",
       date: "November 2019",
       desc: "description 3",
+      trailer:"https://www.youtube.com/embed/8Qn_spdM5Zg",
     },
     {
       id: Math.random(),
@@ -31,6 +34,7 @@ export const moviesData = [
       name: "Fantastic Beasts and Where to Find Them",
       date: "November 2016",
       desc: "description 4",
+      trailer:"https://www.youtube.com/embed/8Qn_spdM5Zg",
     },
     {
       id: Math.random(),
@@ -40,6 +44,7 @@ export const moviesData = [
       name: "Cat In The Hat",
       date: "November 2003",
       desc: "description 5",
+      trailer:"https://www.youtube.com/embed/8Qn_spdM5Zg",
     },
   ];
   

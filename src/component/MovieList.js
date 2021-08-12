@@ -5,7 +5,7 @@ const MovieList = ({films}) => {
   return (
     <div className="movie-list">
       {
-        films.map((el)=> <MovieCard card={el }/>
+        films.map((el,i)=> <MovieCard key={i}card={el }/>
 
         )
       }

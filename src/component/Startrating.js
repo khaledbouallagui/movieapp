@@ -11,7 +11,8 @@ const Startrating = ({rate,handlerate}) => {
               style={{color:"gold",cursor:"pointer"}}>★</span>
           )
         }
-        else star.push(<span onClick={()=>handlerate(i)}
+        else star.push(<span key={i}
+          onClick={()=>handlerate(i)}
              style={{color:"black",cursor:"pointer"}}>★</span>)
         
         }

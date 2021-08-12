@@ -68,6 +68,7 @@ const handlerate=(newrate) => {
           <input type="url" name="image" onChange={handlechange} />
           <label for="">Date</label>
           <input type="date" name="date" onChange={handlechange} required/>
+          
           <label for="">rate</label>
             <Startrating rate={form.rating} handlerate={handlerate}/>
           <button className="btn btn-primary">add</button>
