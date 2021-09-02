@@ -13,8 +13,8 @@
 }
 
 .header-container {
-  color: white;
-  background:  rgb(221, 143, 143);;
+  color: rgb(87, 80, 80);
+  background:  rgb(143, 212, 221);;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
